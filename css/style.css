@@ -69,7 +69,7 @@
 	font-weight: 700;
 	color: #1E212C;
 }
-.image+.text__bold{
+.image1+.text__bold{
 	margin: 0px 0px 24px 0px;
 }
 .text__bold+.text{
@@ -94,6 +94,7 @@
 }
 
 /*============================================================*/
+
 .training {
 	font-family: "Playfair Display";
 	font-size: 20px;
@@ -159,6 +160,10 @@
 .concise_review .image3{
 	opacity: 0.7;
 	margin: 0px auto 10px ;
+}
+.concise_review .text2{
+	border: 3px double #f58b01;
+	max-height: 50px;
 }
 .link_text{
 	font-weight: 400;
