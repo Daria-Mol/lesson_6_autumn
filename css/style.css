@@ -1,0 +1,256 @@
+@import "null.css";
+/* ============================================================================================================================= */
+/*====== Подключаемые Шрифты======= */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*====================================== */
+
+.wrapper {
+	padding: 5px;
+}
+.container {
+	max-width: 810px;
+	margin: 0px auto;
+	padding: 5px;
+}
+.header {
+	margin: 0px 0px 15px 0px;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 20px;
+
+}
+.menu{
+
+}
+.link{
+	display: inline-block;
+	border: 1px solid rgb(45, 11, 238);
+	padding: 5px 15px ;
+	margin: 0px 5px;
+	
+	border-radius: 30% 70% 35% 65% / 23% 30% 70% 77% ;
+	background-color: rgba(255, 251, 4, 0.603);
+	box-shadow: 5px 5px 5px 3px #1E212C,inset 2px 2px 6px 3px #0331d8;
+
+}
+
+.main {
+	margin: 0px 0px 10px 0px;
+	font-family: Lato;
+}
+.article{
+	margin: 0px 0px 20px 0px;
+	border-bottom: 3px double rgb(255, 153, 0);
+}
+.title {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	margin: 0px 0px 92px 0px;
+	
+}
+.image1 {
+	margin: 0px 0px 60px 0px;
+}
+.image1 img{
+	max-width: 810px;
+}
+.text {
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #424551;
+}
+.text__bold {
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #1E212C;
+}
+.image+.text__bold{
+	margin: 0px 0px 24px 0px;
+}
+.text__bold+.text{
+	margin: 0px 0px 30px 0px;
+}
+.text{
+	margin: 0px 0px 48px 0px;
+}
+.comment {
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 48px 0px;
+}
+.comment+.text{
+	margin: 0px 0px 24px 0px;
+}
+.list li{
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 4px 0px;
+}
+.list+.text{
+	margin: 0;
+}
+
+/*============================================================*/
+.training {
+	font-family: "Playfair Display";
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+.training .title {
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+	font-style: italic;
+}
+.subtitle {
+	margin: 0px 0px 20px 0px;
+	max-height: 85px;
+	border: 3px dotted #1a39a8;
+	padding: 0px 5px;
+	overflow: hidden;
+
+}
+.list2 {
+	margin: 0px 0px 20px 0px;
+	max-height: 120px;
+	overflow: scroll;
+	
+}
+.origin_dance {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 5px;
+}
+.item {
+	font-size: 25px;
+	font-style: italic;
+	letter-spacing: 5px;
+	margin: 0px 0px 15px 0px;
+}
+
+.text2 {
+	text-indent: 30px;
+	margin: 0px 0px 10px 0px;
+
+}
+.image{
+	max-width: 750px;
+	display: block;
+	margin: 0px auto;
+	border-radius: 50px 50px 50px 50px;
+}
+.display_none{
+	display: none;
+}
+.characteristiс {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 5px;
+	box-shadow: 15px 10px 15px 10px #f5e501, -15px -10px 15px 10px #1101f5;
+}
+.text_outline{
+	outline: 5px dotted #f5e501;
+}
+.concise_review {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 5px;
+}
+.concise_review .image3{
+	opacity: 0.7;
+	margin: 0px auto 10px ;
+}
+.link_text{
+	font-weight: 400;
+	text-indent: 0;
+}
+.linkvideo{
+	border: 2px dotted #3a1313;
+}
+
+.link2{
+	display: inline-block;
+	padding: 5px;
+	letter-spacing: 8px;
+	color: #0331d8;
+	opacity: 0;
+}
+.visability_0 {
+	margin: 0px 0px 20px 0px;
+
+}
+.text2_visabil {
+	font-weight: 400;
+	font-style: italic;
+
+}
+.text_visability0 {
+	font-weight: 400;
+	font-style: italic;
+	visibility: hidden;
+}
+.link_visability {
+	color: rgb(226, 134, 12);
+	font-style: normal;
+}
+.visability_0 div{
+	border: 3px double #3a1313;
+	padding: 10px;
+}
+.list3 li{
+	padding: 0px 0px 0px 20px;
+	text-indent: 20px;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 23px;
+}
+.list3{
+	margin: 0px 0px 10px 0px;
+	
+}
+.festivals {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 5px;
+}
+.festivals .image{
+	border-radius: 50%;
+	box-shadow:10px 10px 5px 5px #3a1313;
+}
+.country {
+	text-decoration: underline;
+	font-size: 25px;
+	font-style: italic;
+}
+.example {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 5px;
+}
+.example .title {
+	text-indent: 0;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: left;
+}
+.block1 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(102, 89, 13);
+	border-radius: 50% ;
+	margin: 0px 10px;
+	display: inline-block;
+	box-shadow: inset 3px 3px 10px #f5e501,  3px 3px 10px #f58b01;
+}
+.inline1{
+	display: block;
+}
+
+
+
+
+.footer {
+	text-align: right;
+	font-family: Parisienne;
+	font-weight: 700;
+	font-size: 30px;
+	text-shadow: 3px 3px 5px rgb(148, 4, 243);
+}
