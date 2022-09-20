@@ -137,7 +137,7 @@
 
 }
 .overflow_auto{
-	max-height: 100px;
+	max-height: 50px;
 	overflow: auto;
 }
 
