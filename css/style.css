@@ -117,7 +117,7 @@
 .list2 {
 	margin: 0px 0px 20px 0px;
 	max-height: 120px;
-	overflow: scroll;
+	overflow: auto;
 	
 }
 .origin_dance {
@@ -136,10 +136,7 @@
 	margin: 0px 0px 10px 0px;
 
 }
-.overflow_auto{
-	max-height: 50px;
-	overflow: auto;
-}
+
 
 .image{
 	max-width: 750px;
